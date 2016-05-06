@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/>
+    <meta http-equiv="robots" content="nofollow">
+    <title>Test - Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="public/styles/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="public/styles/semantic-extd.css">
+    <script type="text/javascript" src="public/scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="public/scripts/semantic.min.js"></script>
+    <script type="text/javascript" src="public/scripts/main.js"></script>
+</head>
+
+<body class="pushable">
+
+<!-- Sidebar Menu -->
+<div class="ui vertical inverted sidebar menu left">
+    <a class="active item" data-target="home">Home</a>
+    <a class="item" data-target="pers">Pers&ouml;nliches</a>
+    <a class="item" data-target="komp">Kompetenzen</a>
+    <a class="item" data-target="ref">Referenzen</a>
+    <a class="item" data-target="kontakt">Kontakt</a>
+</div>
+<!-- Page Contents -->
+<div class="pusher">
+    <!-- mobile only side menu -->
+    <div id="home" class="ui inverted vertical masthead center aligned segment">
+        <div class="ui fluid container">
+			<!--
+            <script type="text/javascript" src="https://asciinema.org/a/5im5nd752tr4vsf0sza4sad0l.js"
+                    id="asciicast-5im5nd752tr4vsf0sza4sad0l" async data-autoplay="true" data-loop="true"></script>
+			-->
+			<div class="row">
+				<video autoplay loop class="video">
+					<source src="public/video/terminal.mp4" type="video/mp4"> 
+					<source src="public/video/terminal.webm" type="video/webm"> 
+					Ihr Browser kann dieses Video nicht wiedergeben. :(
+				</video>
+				<div class="ui inverted active dimmer">
+					<div class="content">
+						<div class="center">
+							    <div class="image">
+								  <img class="ui medium middle aligned circular image" src="public/images/David.jpg" data-src="public/images/David.jpg">
+								</div>	
+							<a id="more" class="ui huge animated fade inverted button" data-target="wrapper">
+								<div class="visible content">
+									David der Dichtling
+								</div>
+								<div class="hidden content">
+									Mehr
+									<i class="right floated down arrow icon"></i>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+    </div>
+    <!-- page wrapper -->
+    <div id="wrapper">
+        <!-- menu -->
+        <div class="ui large top fixed borderless menu transition hidden">
+            <div class="ui container">
+                <a class="toc item">
+                    <i class="sidebar icon"></i>
+                </a>
+                <a class="active item" data-target="home">Home</a>
+                <a class="item" data-target="pers">Pers&ouml;nliches</a>
+                <a class="item" data-target="komp">Kompetenzen</a>
+                <a class="item" data-target="ref">Referenzen</a>
+                <a class="item" data-target="contactf">Kontakt</a>
+            </div>
+        </div>
+
+        <!-- content -->
+        <div id="main" class="ui vertical stripe segment">
+            <div id="loader" class="ui inverted dimmer">
+                <div class="ui text loader">Loading…</div>
+            </div>
+            <div id="card" class="ui stackable centered grid container">
+
+            </div>
+        </div>
+
+        <!-- footer -->
+        <div id="footer" class="ui vertical segment">
+            <div class="ui stackable grid container">
+                <div class="ui middle aligned row">
+                    <div class="center aligned column">
+                        <small>Coded with
+                            <i class="ui very small red heart icon"></i>
+                            by David Schwarzmann</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>

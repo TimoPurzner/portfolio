@@ -1,0 +1,70 @@
+<div class="row">
+    <div class="center aligned column">
+        <h1 class="ui dividing header">Kontaktieren sie mich</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="eight wide center aligned column">
+        <form class="ui form">
+            <div class="ui right rail">
+                <div class="ui message">
+                    <div class="header">We had some issues</div>
+                    <ul class="list">
+                        <li>Please enter your first name</li>
+                        <li>Please enter your last name</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="required field">
+                <label>Kontaktinformationen</label>
+                <div class="two fields">
+                    <div class="field">
+                        <input type="text" name="sender[first-name]" placeholder="Vorname">
+                    </div>
+                    <div class="field">
+                        <input type="text" name="sender[last-name]" placeholder="Nachname">
+                    </div>
+                </div>
+            </div>
+            <div class="field">
+                <div class="two fields">
+                    <div class="required field">
+                        <input type="email" name="sender[email]" placeholder="E-Mail Adresse">
+                    </div>
+                    <div class="field">
+                        <div class="ui selection dropdown">
+                            <input type="hidden" name="sender[type]">
+                            <div class="default text">Type</div>
+                            <i class="dropdown icon"></i>
+                            <div class="menu">
+                                <div class="item" data-value="person">
+                                    <i class="user icon"></i>
+                                    Einzelperson
+                                </div>
+                                <div class="item" data-value="company">
+                                    <i class="building icon"></i>
+                                    Unternehmen
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="required field">
+                <label>Nachricht</label>
+                <div class="field">
+                    <textarea name="message"></textarea>
+                </div>
+            </div>
+            <div class="ui segment">
+                <div class="field">
+                    <div class="ui toggle checkbox">
+                        <input type="checkbox" name="gift" tabindex="0" class="hidden">
+                        <label>Do not include a receipt in the package</label>
+                    </div>
+                </div>
+            </div>
+            <div class="ui right aligned button" tabindex="0">Submit Order</div>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,188 @@
+.red.background {
+    background-color: #B03060;
+}
+
+.blue.background {
+    background-color: #0E6EB8;
+}
+
+.orange.background {
+    background-color: #FE9A76;
+}
+
+.yellow.background {
+    background-color: #FFD700;
+}
+
+.green.background {
+    background-color: #32CD32;
+}
+
+.olive.background {
+    background-color: #016936;
+}
+
+.teal.background {
+    background-color: #008080;
+}
+
+.violet.background {
+    background-color: #EE82EE;
+}
+
+.purple.background {
+    background-color: #B413EC;
+}
+
+.pink.background {
+    background-color: #FF1493;
+}
+
+.brown.background {
+    background-color: #A52A2A;
+}
+
+.grey.background {
+    background-color: #A0A0A0;
+}
+
+.black.background {
+    background-color: #000000;
+}
+
+.white {
+    color: white;
+}
+
+body > .grid {
+    height: 100%;
+}
+
+a.hidden {
+    display: none;
+}
+
+.hidden.menu {
+    display: none;
+}
+
+#home.masthead.segment {
+    background-color: rgb(0, 0, 0);
+}
+
+.masthead.segment {
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+    padding: 1em 0em;
+}
+
+.masthead .logo.item img {
+    margin-right: 1em;
+}
+
+.masthead .ui.menu .ui.button {
+    margin-left: 0.5em;
+}
+
+.masthead h1.ui.header {
+    margin-top: 3em;
+    margin-bottom: 0em;
+    font-size: 4em;
+    font-weight: normal;
+}
+
+.masthead h2 {
+    font-size: 1.7em;
+    font-weight: normal;
+}
+
+/* Stripe = zb Persönliches */
+.ui.vertical.stripe {
+    padding: 8em 0em;
+}
+
+.ui.vertical.stripe h3 {
+    font-size: 2em;
+}
+
+.ui.vertical.stripe .button + h3, .ui.vertical.stripe p + h3 {
+    margin-top: 3em;
+}
+
+.ui.vertical.stripe .floated.image {
+    clear: both;
+}
+
+.ui.vertical.stripe p {
+    font-size: 1.33em;
+}
+
+.ui.vertical.stripe .horizontal.divider {
+    margin: 3em 0em;
+}
+
+.quote.stripe.segment {
+    padding: 0em;
+}
+
+.quote.stripe.segment .grid .column {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.footer.segment {
+    padding: 5em 0em;
+}
+
+#main {
+    height: 95vh;
+    min-height: 95vh;
+    max-height: 95vh;
+}
+
+.masthead .active.dimmer {
+  background-color: rgba(0, 0, 0, 0);
+}
+.video{
+	width: auto; 
+	height: 95vh;
+}
+
+#footer {
+    height: 5vh;
+    min-height: 5vh;
+    max-height: 5vh;
+}
+
+.top.fixed.borderless.menu .toc.item {
+    display: none;
+}
+
+@media only screen and (max-width: 700px) {
+    .ui.fixed.menu {
+        display: none !important;
+    }
+
+    .secondary.pointing.menu .item, .secondary.pointing.menu .menu {
+        display: none;
+    }
+
+    .top.fixed.borderless.menu .toc.item {
+        display: block;
+    }
+
+    .masthead.segment {
+        min-height: 350px;
+    }
+
+    .masthead h1.ui.header {
+        font-size: 2em;
+        margin-top: 1.5em;
+    }
+
+    .masthead h2 {
+        margin-top: 0.5em;
+        font-size: 1.5em;
+    }
+}

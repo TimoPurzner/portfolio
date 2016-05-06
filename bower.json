@@ -1,0 +1,13 @@
+{
+  "name": "dschwarz.codes",
+  "description": "",
+  "authors": [
+    "David Schwarzmann <dev@dschwarz.codes>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "angular2#^1.5.3",
+    "semantic": "semantic-ui#^2.1.8"
+  }
+}
